@@ -6,8 +6,8 @@ return (["foo",...array]);
 }
 
 function destructivelyAddElementToBeginningOfArray(array,element){
-var array=[1];
-array=array.unshift('foo');
+var array=[ 1 ];
+array.unshift("foo");
 return array;
 }
 
@@ -16,9 +16,9 @@ var array=[1];
 return ([...array,"foo"]);
 }
 
-function destructivelyAddElementToEndOfArray(array,element){
-var array=[1];
-array=array.push('foo');
+function destructivelyAddElementToEndOfArray(array, element){
+var array=[ 1 ];
+array.push("foo");
 return array;
 }
 
