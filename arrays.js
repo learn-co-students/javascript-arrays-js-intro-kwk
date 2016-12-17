@@ -8,7 +8,7 @@ function addElementToBeginningOfArray (array, element){
 addElementToBeginningOfArray(); 
 
 function destructivelyAddElementToBeginningOfArray (array, element){
-  array = [1];
+  var array = [1];
   ["foo", ...array]
   return array 
 }
@@ -20,3 +20,17 @@ function addElementToEndOfArray (array, element){
   return array 
 }
 addElementToEndOfArray(); 
+
+function destructivelyAddElementToEndOfArray (array, element){
+  var array = [1];
+  [ ...array, "foo"]
+  return array 
+}
+destructivelyAddElementToEndOfArray(); 
+
+function accessElementInArray (array, index){
+  var array = [1]; 
+  return  array[2]; 
+}
+accessElementInArray(); 
+
