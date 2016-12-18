@@ -30,7 +30,7 @@ destructivelyAddElementToEndOfArray();
 
 function accessElementInArray (array, index){
   var array = [1]; 
-  return  array[2]
+  return  array[0]
 }
 accessElementInArray();  
 
