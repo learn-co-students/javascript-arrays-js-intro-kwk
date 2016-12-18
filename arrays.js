@@ -32,5 +32,12 @@ function accessElementInArray (array, index){
   var array = [1]; 
   return  array[2]; 
 }
-accessElementInArray(); 
+accessElementInArray();  
+
+function destructivelyRemoveElementFromBeginningOfArray (array){
+  var array = [1, 2]
+destructivelyRemoveElementFromBeginningOfArray.shift(0)
+return array 
+}
+destructivelyRemoveElementFromBeginningOfArray(); 
 
