@@ -41,3 +41,10 @@ return array
 }
 destructivelyRemoveElementFromBeginningOfArray(); 
 
+function removeElementFromBeginningOfArray (array){
+  var array = [1, "foo"];
+  array.slice(1)
+  return array 
+}
+removeElementFromBeginningOfArray();
+
