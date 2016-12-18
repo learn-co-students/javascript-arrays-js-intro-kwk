@@ -42,8 +42,8 @@ return array
 destructivelyRemoveElementFromBeginningOfArray(); 
 
 function removeElementFromBeginningOfArray (array){
-  var array = [1, "foo"];
-  array.slice(1)
+  var array = [2, 3];
+  array.slice(0)
   return array 
 }
 removeElementFromBeginningOfArray();
