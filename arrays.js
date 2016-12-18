@@ -23,7 +23,7 @@ addElementToEndOfArray();
 
 function destructivelyAddElementToEndOfArray (array, element){
   var array = [1];
-  [ ...array, "foo"]
+  array = [ ...array, "foo"]
   return array 
 }
 destructivelyAddElementToEndOfArray(); 
@@ -43,7 +43,7 @@ destructivelyRemoveElementFromBeginningOfArray();
 
 function removeElementFromBeginningOfArray (array){
   var array = [2, 3];
-  array.slice(0)
+  array = array.slice(0)
   return array 
 }
 removeElementFromBeginningOfArray();
