@@ -1,73 +1,72 @@
 var chocolateBars = ['snickers', 'hundred grands', 'kit kat', 'skittles'];
 
-//First Function 
+//First Function
 function addElementToBeginningOfArray (array, element){
-  var array = [1]; 
+  var array = [1];
   array.unshift('foo')
-  return array 
+  return array
 }
-addElementToBeginningOfArray(); 
+addElementToBeginningOfArray();
 
-// Second Function 
+// Second Function
 function destructivelyAddElementToBeginningOfArray (array, element){
   var array = [1];
   array = ['foo', ...array]
-  return array 
+  return array
 }
-destructivelyAddElementToBeginningOfArray(); 
+destructivelyAddElementToBeginningOfArray();
 
-// Third Function 
+// Third Function
 function addElementToEndOfArray (array, element){
-  var array = [1]; 
+  var array = [1];
   array.push('foo')
-  return array 
+  return array
 }
-addElementToEndOfArray(); 
+addElementToEndOfArray();
 
-// Fourth Function 
+// Fourth Function
 function destructivelyAddElementToEndOfArray (array, element){
   var array = [1];
   array = [ ...array, "foo"]
-  return array 
+  return array
 }
-destructivelyAddElementToEndOfArray(); 
+destructivelyAddElementToEndOfArray();
 
-// Sixth Function 
+// Sixth Function
 function accessElementInArray (array, index){
-  var array = [1, 2, 3]; 
+  var array = [1, 2, 3];
   return  array[2]
 }
-accessElementInArray();  
+accessElementInArray();
 
-// Seventh Function 
+// Seventh Function
 function destructivelyRemoveElementFromBeginningOfArray (array){
-  var array = [1, "foo"]; 
+  var array = [1, "foo"];
 array.shift()
-return array 
+return array
 }
-destructivelyRemoveElementFromBeginningOfArray(); 
+destructivelyRemoveElementFromBeginningOfArray();
 
-//Eughth Function 
+//Eighth Function
 function removeElementFromBeginningOfArray (array){
   var array = [2, 3];
   array = array.slice(0)
-  return array 
+  return array
 }
 removeElementFromBeginningOfArray();
 
-// Ninth Function 
+// Ninth Function
 function destructivelyRemoveElementFromEndOfArray (array) {
-  var array = [2, 3]; 
+  var array = [2, 3];
   array.pop()
-  return array 
+  return array
 }
 destructivelyRemoveElementFromEndOfArray();
 
-// Tenth Function 
+// Tenth Function
 function removeElementFromEndOfArray (array) {
-  var array = [1, 2]; 
+  var array = [1, 2];
   array.slice(0, array.length - 1)
-  return array 
+  return array
 }
-removeElementFromEndOfArray(); 
-
+removeElementFromEndOfArray();
