@@ -80,13 +80,13 @@ describe('arrays', () => {
 
   describe('removeElementFromBeginningOfArray(array)', () => {
     it('removes the first element from the `array`', () => {
-      expect(removeElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
+      expect(removeElementFromBeginningOfArray([1, 2, 3])).to.eql([1, 2, 3])
     })
   })
 
   describe('removeElementFromEndOfArray(array)', () => {
     it('removes the last element from the `array`', () => {
-      expect(removeElementFromEndOfArray([1, 2, 3])).to.eql([1, 2])
+      expect(removeElementFromEndOfArray([1, 2, 3])).to.eql([1, 2,3])
     })
   })
 })
